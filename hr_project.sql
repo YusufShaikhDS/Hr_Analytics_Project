@@ -1,6 +1,9 @@
+#created a seperate database and imported the data into hr table
 use world;
- 
+
 select * from hr;
+
+
 alter table hr add column Attritioncount int after attrition;
 alter table hr add column Work_life_balance_rating varchar(20);
 alter table hr add column cf_year_since_last_promotion varchar(10);
